@@ -149,7 +149,55 @@ div{ /* à enlever à la fin, c'est juste pour positionner les blocs comme on so
     width: 60%;
     height: 100%;
 }
+/*  styles for colorPicker*/
 
+input[type='radio'] {
+    -webkit-appearance:none;
+    height:3em; width:3em;
+    border: 1px solid darkgray;
+    border-radius:50%;
+    outline:none;
+}
+
+input[type='radio']:before {
+    content:'';
+    display:block;
+    width:60%;
+    height:60%;
+    margin: 7%;    
+    border-radius:50%;    
+}
+
+input[type='radio']:checked:before {
+    border: 5px solid white;
+}
+
+input[type='radio'] 
+{
+      background:  #2BD931;
+}
+
+input[type='radio'] + #bleu
+{
+      background: #2632D7;
+}
+
+input[type='radio'] + #rouge
+{
+      background: #C10808;
+}
+
+input[type='radio'] + #jaune
+{
+      background: #E3C850;
+}
+
+
+#testbox{
+  width :50px;
+  height : 50px;
+  background-color : black;
+}
 
 .img_carre img{
     width: 90%;
