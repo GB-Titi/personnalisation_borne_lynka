@@ -221,6 +221,8 @@ input[type='radio'] + #jaune
     width: 90%;
     height: 90%;
     margin: auto;
+    max-width: 50%;
+    max-height: 90%;
 }
 
 #img_carre{
