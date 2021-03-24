@@ -34,6 +34,8 @@ div{ /* à enlever à la fin, c'est juste pour positionner les blocs comme on so
 .image_borne{
     width: 100%;
     height: 80%;
+    display: flex;
+    flex-direction: row;
 }
 
 .color_picker{
@@ -86,4 +88,32 @@ div{ /* à enlever à la fin, c'est juste pour positionner les blocs comme on so
 .img_carre{
     width: 60%;
     height: 100%;
+}
+
+.borne_arcade{
+    width: 25%;
+    height: 75%;
+    margin: auto;
+    background-image: url("../img/Bleu.png");
+    z-index: 10;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    background-repeat: round;
+}
+
+.borne_header{
+    width: 88%; /* 210px */
+    height: 8%; /* 50px */
+    top: 2%;
+    position: absolute;
+    margin-left: 5%;
+}
+
+.borne_carre{
+    width: 88%; /* 210px */
+    height: 40%; /* 230px */
+    bottom: 2%;
+    position: absolute;
+    margin-left: 5%;
 }
