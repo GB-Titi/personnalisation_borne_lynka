@@ -39,6 +39,7 @@ div{ /* à enlever à la fin, c'est juste pour positionner les blocs comme on so
 .color_picker{
     width: 100%;
     height: 20%;
+    display: inline-block;
 }
 
 .col2{
