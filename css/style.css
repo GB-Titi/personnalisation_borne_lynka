@@ -7,8 +7,8 @@ html{
 
 body{
     margin: auto;
-    width: 99%;
-    height: 99%;
+    width: 100%;
+    height: 100%;
     padding: 0px;
 }
 
@@ -24,15 +24,18 @@ h3{
 }
 
 
-div{ /* à enlever à la fin, c'est juste pour positionner les blocs comme on souhaite */
+/*div{ /* à enlever à la fin, c'est juste pour positionner les blocs comme on souhaite 
     border : 1px solid black;
-}
+} */
 
 .container{
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
+    background-image: url('../img/background2_sombre.jpg');
+    background-size: contain;
+    color: white;
 }
 
 .col1{
@@ -44,15 +47,26 @@ div{ /* à enlever à la fin, c'est juste pour positionner les blocs comme on so
 
 .image_borne{
     width: 100%;
-    height: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.color_picker{
     display: flex;
     flex-direction: row;
 }
 
-.color_picker{
-    width: 100%;
-    height: 20%;
-    display: inline-block;
+.color_picker_content{
+    padding: 20px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: rgba(255,138,140, 0.5);
+    border-radius: 10px;
+}
+
+.color_picker_radio{
+    opacity: 1;
 }
 
 .col2{
@@ -224,17 +238,27 @@ input[type='radio'] + #jaune
 
 .borne_header{
     width: 88%; /* 210px */
-    height: 8%; /* 50px */
-    top: 2%;
+    height: 8.5%;
+    top: 1.5%;
     position: absolute;
-    margin-left: 5%;
+    margin-left: 5.65%;
 }
 
 .borne_carre{
     width: 88%; /* 210px */
-    height: 40%; /* 230px */
+    height: 39.5%; /* 230px */
     bottom: 2%;
     position: absolute;
-    margin-left: 5%;
+    margin-left: 5.65%;
     display: flex;
+}
+
+#borne_header{
+    width: 100%;
+    height: 100%;
+}
+
+#borne_carre{
+    width: 100%;
+    height: 100%;
 }

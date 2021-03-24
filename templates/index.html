@@ -13,23 +13,23 @@
             <div class="image_borne">
                 <div id="borne_arcade">
                     <div class="borne_header">
-
+                        <img id="borne_header" onClick="javascript:console.log(document.querySelector('img').src)"/>
                     </div>
                     <div class="borne_carre">
-                        
+                        <img id="borne_carre" onClick="javascript:console.log(document.querySelector('img').src)"/>
                     </div>
                 </div>
-            </div>
-            <div class="color_picker">
-                <input type="radio" class="checkmark" id="vert" name="colorPicker" value="vert" onclick="changeColor('vert')">              
-                <input type="radio" class="checkmark" id="bleu" name="colorPicker" value="bleu"  onclick="changeColor('bleu')">
-                <input type="radio" class="checkmark" id="jaune" name="colorPicker" value="jaune"  onclick="changeColor('jaune')">
-                <input type="radio" class="checkmark" id="rouge" name="colorPicker" value="rouge"  onclick="changeColor('rouge')">
-                
-                <!-- debug box -->
-                <div id="testbox">
-                
-                </div>
+
+                <div class="color_picker">
+                    <div class="color_picker_content">
+                        <div class="color_picker_radio">
+                            <input type="radio" class="checkmark" id="vert" name="colorPicker" value="vert" onclick="changeColor('vert')">              
+                            <input type="radio" class="checkmark" id="bleu" name="colorPicker" value="bleu"  onclick="changeColor('bleu')">
+                            <input type="radio" class="checkmark" id="jaune" name="colorPicker" value="jaune"  onclick="changeColor('jaune')">
+                            <input type="radio" class="checkmark" id="rouge" name="colorPicker" value="rouge"  onclick="changeColor('rouge')">
+                        </div>
+                    </div>
+                </div>  
             </div>
         </div>
         <div class="col2">
