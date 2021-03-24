@@ -148,6 +148,7 @@ div{ /* à enlever à la fin, c'est juste pour positionner les blocs comme on so
 .img_carre{
     width: 60%;
     height: 100%;
+    display: flex;
 }
 /*  styles for colorPicker*/
 
