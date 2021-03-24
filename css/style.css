@@ -110,14 +110,14 @@ input[type='radio']:checked:before {
     border: 5px solid white;
 }
 
+input[type='radio'] 
+{
+      background:  #2BD931;
+}
+
 input[type='radio'] + #bleu
 {
       background: #2632D7;
-}
-
-input[type='radio'] + #vert
-{
-      background:  #2BD931;
 }
 
 input[type='radio'] + #rouge
