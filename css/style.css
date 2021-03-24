@@ -244,6 +244,10 @@ input[type='radio'] + #jaune
     margin-left: 5.65%;
 }
 
+.borne_header img{
+    object-fit: cover;
+}
+
 .borne_carre{
     width: 88%; /* 210px */
     height: 39.5%; /* 230px */
@@ -252,6 +256,11 @@ input[type='radio'] + #jaune
     margin-left: 5.65%;
     display: flex;
 }
+
+.borne_carre img{
+    object-fit: cover;
+}
+
 
 #borne_header{
     width: 100%;
