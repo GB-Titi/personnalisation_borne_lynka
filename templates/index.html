@@ -22,19 +22,23 @@
 
             </div>
             <div class="upload_header">
-                <div class="input_header">
-
+                <div class="div_header">
+                    <h3>Insérez une image qui ira sur la partie haute de la borne</h3>
+                    <p>(priorisez les images en format paysage, format conseillé : "format" )</p>
+                    <input type="file" accept="image/*" onchange="loadHeader(event)" class="input_header">
                 </div>
                 <div class="img_header">
-
+                    <img id="img_header" onClick="javascript:console.log(document.querySelector('img').src)"/>
                 </div>
             </div>
             <div class="upload_carre">
-                <div class="input_carre">
-
+                <div class="div_carre">
+                    <h3>Insérez une image qui ira sur la partie centrale de la borne</h3>
+                    <p>(priorisez les images en format carré, format conseillé : "format" )</p>
+                    <input type="file" accept="image/*" onchange="loadCarre(event)" class="input_carre">
                 </div>
                 <div class="img_carre">
-
+                    <img id="img_carre" onClick="javascript:console.log(document.querySelector('img').src)"/>
                 </div> 
             </div>
         </div>
