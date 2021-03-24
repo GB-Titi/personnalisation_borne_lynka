@@ -10,7 +10,7 @@ L'objectif est de produire un petit script permettant de modifier la borne avec 
 |**Css classique**           |`Positionner les élements`         |
 |**JavaScript natif**    |`Permet l'upload d'image coté client et l'insertion de celles-ci dans les div`              |
 
-## ## Documentation: Miro [![Doc Miro](https://img.shields.io/static/v1?label=Documentation&message=Miro&color=yellow)](https://miro.com/app/board/o9J_lbldj6Y=/)
+## Documentation: Miro [![Doc Miro](https://img.shields.io/static/v1?label=Documentation&message=Miro&color=yellow)](https://miro.com/app/board/o9J_lbldj6Y=/)
 
  > Pour voir comment on en est arrivé là, il suffit de regarder dans la partie "DEV" du miro
 
