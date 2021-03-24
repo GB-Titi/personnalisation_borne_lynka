@@ -13,6 +13,17 @@ body{
 }
 
 
+* {
+    font-family: Raleway;
+}
+
+h3{
+    font-family: 'Montserrat';
+    margin: 5px;
+    font-size: 1.2rem;
+}
+
+
 div{ /* à enlever à la fin, c'est juste pour positionner les blocs comme on souhaite */
     border : 1px solid black;
 }
@@ -61,16 +72,46 @@ div{ /* à enlever à la fin, c'est juste pour positionner les blocs comme on so
     height: 30%;
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+
+.div_header{
+    width: 100%;
+    height: 40%;
+}
+
+.div_header p{
+    font-size: 0.8rem;
+    padding: 0px;
+    margin: 10px 0px 5px;
 }
 
 .input_header{
-    width: 100%;
-    height: 40%;
+    width: max-content;
+    height: max-content;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color:lavender;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.9);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .img_header{
     width: 100%;
     height: 60%;
+    display: flex;
+}
+
+#img_header{
+
+}
+
+.img_header img{
+    width: 90%;
+    height: 90%;
+    margin: auto;
 }
 
 .upload_carre{
@@ -78,16 +119,46 @@ div{ /* à enlever à la fin, c'est juste pour positionner les blocs comme on so
     height: 50%;
     display: flex;
     flex-direction: row;
+    text-align: center;
+}
+
+.div_carre{
+    width: 40%;
+    height: 100%;
+}
+
+.div_carre p{
+    font-size: 0.8rem;
+    padding: 0px;
+    margin: 10px 0px 5px;
 }
 
 .input_carre{
-    width: 40%;
-    height: 100%;
+    width: max-content;
+    height: max-content;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color:lavender;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.9);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .img_carre{
     width: 60%;
     height: 100%;
+}
+
+
+.img_carre img{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+#img_carre{
+
 }
 
 .borne_arcade{
@@ -116,4 +187,5 @@ div{ /* à enlever à la fin, c'est juste pour positionner les blocs comme on so
     bottom: 2%;
     position: absolute;
     margin-left: 5%;
+    display: flex;
 }
