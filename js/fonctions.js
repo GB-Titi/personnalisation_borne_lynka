@@ -1,6 +1,5 @@
 
 function changeColor(color) {
-  let borne = document.getElementById("testbox");
   let borne_arcade = document.getElementById("borne_arcade");
   switch (color) {
     case "bleu":
@@ -38,6 +37,7 @@ var loadCarre = function(event) {
     var borne_carre = document.getElementById('borne_carre');
     output.src = URL.createObjectURL(event.target.files[0]);
     borne_carre.src = URL.createObjectURL(event.target.files[0]);
-
+    var gif = document.getElementById('div_gif');
+    gif.style.backgroundImage = "url('../img/space_invaders.gif')";
   };
 
