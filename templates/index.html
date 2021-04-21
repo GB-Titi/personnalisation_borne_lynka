@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prévisualisation de borne personnalisée</title>
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap" rel="stylesheet">  
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 <body>
     <div class="container">
@@ -38,7 +41,7 @@
         <div class="col2">
             <div class="explication_text">
                 <div class="text_background">
-                    <h3>Déposez une photo afin de l'intégrer sur la borne.</h3>
+                    <h1 style="text-decoration: underline; font-family:Montserrat">Déposez une photo afin de l'intégrer sur la borne.</h1>
     
                     <p> Vous pouvez en déposer deux :</p>
 
@@ -46,29 +49,31 @@
                     <li> une pour le milieu de la borne</li>
                 </div>
             </div>
-            <div class="upload_header">
-                <div class="div_header">
-                    <div class="text_background">
-                        <h3>Insérez une image qui ira sur la partie haute de la borne</h3>
-                        <p>(priorisez les images en format paysage, format conseillé : "format" )</p>
-                        <input type="file" accept="image/*" onchange="loadHeader(event)" class="input_header">
+            <div class="upload">
+                <div class="upload_header">
+                    <div class="div_header">
+                        <div class="text_background">
+                            <h3 style="text-decoration: underline; font-family:Montserrat; margin-bottom: 25px;">Insérez une image qui ira sur la partie haute de la borne</h3>
+                            <p>(priorisez les images en format paysage, format conseillé : "format" )</p>
+                            <input type="file" accept="image/*" onchange="loadHeader(event)" class="input_header">
+                        </div>
+                    </div>
+                    <div class="img_header">
+                        <img id="img_header" onClick="javascript:console.log(document.querySelector('img').src)"/>
                     </div>
                 </div>
-                <div class="img_header">
-                    <img id="img_header" onClick="javascript:console.log(document.querySelector('img').src)"/>
-                </div>
-            </div>
-            <div class="upload_carre">
-                <div class="div_carre">
-                    <div class="text_background">
-                        <h3>Insérez une image qui ira sur la partie centrale de la borne</h3>
-                        <p>(priorisez les images en format carré, format conseillé : "format" )</p>
-                        <input type="file" accept="image/*" onchange="loadCarre(event)" class="input_carre">
+                <div class="upload_carre">
+                    <div class="div_carre">
+                        <div class="text_background">
+                            <h3 style="text-decoration: underline; font-family:Montserrat; margin-bottom: 25px">Insérez une image qui ira sur la partie centrale de la borne</h3>
+                            <p>(priorisez les images en format carré, format conseillé : "format" )</p>
+                            <input type="file" accept="image/*" onchange="loadCarre(event)" class="input_carre">
+                        </div>
                     </div>
+                    <div class="img_carre">
+                        <img id="img_carre" onClick="javascript:console.log(document.querySelector('img').src)"/>
+                    </div> 
                 </div>
-                <div class="img_carre">
-                    <img id="img_carre" onClick="javascript:console.log(document.querySelector('img').src)"/>
-                </div> 
             </div>
         </div>
     </div>

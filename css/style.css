@@ -14,13 +14,13 @@ body{
 
 
 * {
-    font-family: Raleway;
+    font-family: 'Raleway';
 }
 
 h3{
     font-family: 'Montserrat';
     margin: 5px;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
 
 
@@ -39,7 +39,7 @@ h3{
 }
 
 .col1{
-    width: 50%;
+    width: 30%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,7 @@ h3{
 }
 
 .col2{
-    width: 50%;
+    width: 70%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -83,10 +83,15 @@ h3{
 
 .upload_header{
     width: 100%;
-    height: 30%;
     display: flex;
     flex-direction: column;
     text-align: center;
+    height: 90%;
+    margin: 15px;
+    border: 1px solid black;
+    background-color: rgba(42,75,105, 0.5);
+    border-radius: 15px;
+    max-height: 90%;
 }
 
 .div_header{
@@ -95,7 +100,7 @@ h3{
 }
 
 .div_header p{
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 0px;
     margin: 10px 0px 5px;
 }
@@ -123,19 +128,22 @@ h3{
 }
 
 .img_header img{
-    width: 50%;
+    width: 90%;
     height: 90%;
     margin: auto;
-    max-width: 50%;
-    max-height: 90%;
 }
 
 .upload_carre{
     width: 100%;
-    height: 50%;
     display: flex;
     flex-direction: column;
     text-align: center;
+    height: 90%;
+    margin: 15px;
+    border: 1px solid black;
+    background-color: rgba(42,75,105, 0.5);
+    border-radius: 15px;
+    max-height: 90%;
 }
 
 .div_carre{
@@ -144,7 +152,7 @@ h3{
 }
 
 .div_carre p{
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 0px;
     margin: 10px 0px 5px;
 }
@@ -162,8 +170,8 @@ h3{
 }
 
 .img_carre{
-    width: 60%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     display: flex;
     margin: auto;
 }
@@ -218,19 +226,13 @@ input[type='radio'] + #jaune
 }
 
 .img_carre img{
-    width: 90%;
+    width: 70%;
     height: 90%;
-    margin: auto;
-    max-width: 50%;
-    max-height: 90%;
-}
-
-#img_carre{
-
+    margin: 0px auto;
 }
 
 #borne_arcade{
-    width: 25%;
+    width: 43%;
     height: 75%;
     margin: auto;
     background-image: url("../img/Bleu.png");
@@ -296,16 +298,21 @@ input[type='radio'] + #jaune
 
 .explication_text{
     text-align: center;
-    margin-top: 25px;
     display: flex;
 }
 
 .text_background{
-    border: 1px solid black;
-    background-color: rgba(42,75,105, 0.5);
-    border-radius: 10px;
-    width: max-content;
     height: max-content;
     padding: 10px;
     margin: auto;
+    width: 90%;
+    font-size: 1.5rem;
+}
+
+.upload{
+    display: flex;
+    flex-direction: row;
+    height: 68%;
+    padding: 0% 15px 0px 0px;
+    margin-top: 8%;
 }
